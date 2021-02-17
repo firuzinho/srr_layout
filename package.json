@@ -1,8 +1,7 @@
 {
 	"name": "shop",
 	"version": "10.0.0",
-	"description": "Проект к лабораторным по Современным средствам 
-разработки",
+	"description": "Проект к лабораторным по ССР",
 	"main": "index.js",
 	"author": "Firuz Kodirov",
 	"license": "ISC",
@@ -28,5 +27,6 @@
 		"gulp-rsync": "0.0.9",
 		"gulp-sass": "^4.1.0",
 		"gulp-sass-glob": "^1.1.0",
+		"webpack-stream": "^6.1.2"
 	}
 }
