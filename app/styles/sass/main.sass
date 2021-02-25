@@ -1,2 +1,106 @@
 @import config
 @import "blocks/**/*"
+
+
+body
+    padding-top: 56px
+.product-list
+
+    .card-footer
+        background-color: #e8f0f2
+.header-cart
+    position: relative
+
+    &__link
+        color: #fff
+        text-decoration: none !important
+        &:hover
+            color: rgba(255,255,255,.75)
+    &__count
+        position: absolute;
+        top: -7px;
+        right: 7px;
+        z-index: 999;
+        background: $accent;
+        border-radius: 50%;
+        font-size: 10px;
+        width: 18px;
+        height: 18px;
+        text-align: center;
+        line-height: 18px;
+.list
+    list-style:  none
+    margin: 0
+    padding: 0
+.cat-list
+
+    li
+        margin-bottom: 5px
+        a
+            font-size: 14px;
+            font-weight: normal;
+            color: #606060;
+            position: relative;
+            padding: 5px 0
+.sidebar-widget
+    margin-bottom: 30px;
+    &__title
+        margin-bottom: 20px;
+        font-size: 14px;
+        color: #2a2a2a;
+        font-weight: 500;
+        line-height: 40px;
+        position: relative;
+        background-color: #e8f0f2;
+        padding: 10px 15px 10px 30px;
+        text-transform: uppercase;
+    &__body
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+        background-color: #fff
+    &_shadow
+        box-shadow: 0px 10px 10px 0px rgba(153, 153, 153, 0.1)
+
+.product
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #606060;
+    font-weight: 400;
+
+    &__title
+        font-size: 24px;
+        font-weight: 700;
+        color: #2a2a2a;
+        margin-bottom: 10px;
+    &__price
+        font-size: 24px;
+        font-weight: bold;
+        color: #2f7dfc;
+        margin-bottom: 15px;
+    &__desc
+        margin-bottom: 20px
+    &__actions 
+        margin-top: 20px
+    &__meta
+        margin-bottom: 20px
+        a
+            text-decoration: none
+        span
+            color: #555;
+
+
+
+.product-count
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+
+    &__number
+        border: 0px solid transparent;
+        text-align: center;
+        display: inline-block;
+        width: 60px;

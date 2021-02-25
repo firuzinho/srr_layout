@@ -12,6 +12,7 @@
 		"babel-plugin-module-resolver": "^4.1.0",
 		"babel-plugin-root-import": "^6.6.0",
 		"bootstrap": "^4.6.0",
+		"bootstrap-icons": "^1.4.0",
 		"browser-sync": "^2.26.14",
 		"browsersync-ssi": "^0.2.4",
 		"del": "^6.0.0",
@@ -27,6 +28,7 @@
 		"gulp-rsync": "0.0.9",
 		"gulp-sass": "^4.1.0",
 		"gulp-sass-glob": "^1.1.0",
+		"jquery": "^3.5.1",
 		"webpack-stream": "^6.1.2"
 	}
 }
